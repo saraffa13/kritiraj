@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Kaushan+Script&display=swap');
+
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fbf9ff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23050506' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+h4{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 6rem;
+}
+section{
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#home{
+    background: url('./IMG-20200817-WA0026.jpg') no-repeat center center/cover ;
+    color:  white;
+
+}
+.homediv{
+    display: block;
+    text-align: left;
+    margin-left: 10rem;
+}
+.homedivh4{
+    color:white;
+}
+.homefooter{
+    height: 4rem;
+    display: none;
+    background-color: #212529;
+}
+.aboutme{
+    min-height: 80vh;
+    margin: auto;
+    /* border: 1px solid saddlebrown; */
+    width: 90vw;
+    background: whitesmoke;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgba(156, 153, 153, 0.5);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.Cardsss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Cardss1{
+    width: 20%;
+    border:1px solid green;
+    border: 6px solid rgb(84, 87, 84);
+    border-radius: 1rem;
+    height:14rem;
+    margin: 1rem;
+    padding: 5px;
+    background-color: rgb(84, 87, 84);
+}
+.Cardss1 img{
+    height: 100%;
+    width: 100%;
+}
+.Cardss2{
+    margin: 1rem;
+    border: 6px solid rgb(84, 87, 84);
+    border-radius: 1rem;
+    width: 50%;
+    padding: 1rem;
+
+}
+
+#skill{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+}
+.card-container{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+@media only screen and (max-width: 600px) {
+    section{
+        min-height: 80vh;
+    }
+    .homediv{
+        margin-left: 1rem;
+    }
+    h4{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 4rem;
+    }
+    .homefooter{
+        height: 4rem;
+        display: block;
+        background-color: #212529;
+    }
+    .Cardsss{
+       flex-direction: column;        
+    }
+    .Cardss1{
+        width: 97%;
+        /* border:1px solid green; */
+        border: 4px solid rgb(84, 87, 84);
+        height:45vh;
+    }
+    .Cardss2{
+        /* border: 1px solid green; */
+        border: 3px solid rgb(84, 87, 84);
+        width: 97%;
+    
+    }
+    .aboutme{
+        width: 95%;
+    }
+
+  }
