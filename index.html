@@ -12,34 +12,47 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./cards.css">
   <link rel="stylesheet" href="./card2.css">
+  <link rel="stylesheet" href="./cover.css">
+  <link rel="stylesheet" href="./stylemenu.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
+
+
+  <!-- cover -->
+  <!-- <div id="cover">
+
+  </div> -->
+
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#skill">Skill</a>
-          <a class="nav-link" href="#contact">Contact</a>
-          <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-        </div>
-      </div>
+
+  <nav id="nav">
+    <div id="navdiv">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skill">Skill</a>
+      <a href="#contact">Contact</a>
     </div>
+    <!-- <div id="navmenu">
+      <div class="navmenudiv"></div>
+      <div class="navmenudiv"></div>
+      <div class="navmenudiv"></div>
+    </div> -->
+    <!-- <div id="navmenu" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div> -->
+
   </nav>
-  <section id="home"  >
+
+
+  <section id="home">
     <div class="homediv">
       <h4 class="homedivh4" data-aos="fade-up" data-aos-delay="200">Kriti Raj</h4>
-      <h3 data-aos="fade-down" data-aos-delay="400" >I am a student of class 6.</h3>
+      <h3 data-aos="fade-down" data-aos-delay="400">I am a student of class 6.</h3>
     </div>
 
   </section>
@@ -51,9 +64,9 @@
 
 
   <section id="about">
-    <div class="aboutme" >
+    <div class="aboutme">
       <div>
-        <h4 data-aos="fade-in" >About Me</h4>
+        <h4 data-aos="fade-in">About Me</h4>
       </div>
 
       <div class="Cardsss">
@@ -156,14 +169,15 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({
-      
-  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 120, // offset (in px) from the original trigger point
-  delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 400, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
     });
   </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
