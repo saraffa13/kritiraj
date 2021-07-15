@@ -4,6 +4,8 @@
     transition: 0.3s;
     width: 16rem;
     height: 18rem;
+    display: inline-block;
+    margin: 0;
   }
 .carda img{
     height: 65%;
